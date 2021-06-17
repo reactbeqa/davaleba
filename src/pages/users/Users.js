@@ -4,10 +4,10 @@ import {getUser} from '../../services/users_api'
 function Users(props){
     return(
         <div>
-            <h1>User List from 'recres.in'</h1>
-            <div className="list-group">
-                <getUser />
-                <ol id="list" ></ol>
+            <h1>User API</h1>
+            <div>
+                {/* <getUser /> */}
+                <ul id="list1" ></ul>
             </div>
 
            

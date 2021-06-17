@@ -11,17 +11,24 @@ function getResource(){
     .then(function (resource){
 
 
-        let list = document.getElementById('list')
-        resource.data.forEach(element => {
-            let li = document.createElement('li');
-            li.textContent = element.name + ' ' + element.year + ' ' + element.color;
-            list.appendChild(li);
-            
-        });
+        window.onload = () => {
+            // let list = document.getElementById('list2');
+            for (let i = 0; i < resource.data.length; i++) {
+                const element = resource.data[i];
+                let li2 = document.createElement('li');
+                li2.textContent = element.name + ' ' + element.year + ' ' + element.color;
+                // list.appendChild(li2);
+
+                document.getElementById("list2").appendChild(li2);
+                
+            }
+        }
+
+       
 
     })
     
 
 
 }
-getResource()
+export default getResource()

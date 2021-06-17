@@ -32,6 +32,7 @@ function App() {
           <Route path="/users">
             <Users />
           </Route>
+          
           <Route path="/resource">
             <Resource />
           </Route>

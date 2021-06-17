@@ -5,10 +5,10 @@ import {getResource} from '../../services/resource_api';
 function Resource(props){
     return(
         <div>
-            <h1>Resource from 'recres.in'</h1>
-            <div className="list-group">
-                <getResource />
-                <ol id="list" ></ol>
+            <h1>Resource API</h1>
+            <div>
+                {/* <getResource /> */}
+                <ul id="list2" ></ul>
             </div>
 
            
