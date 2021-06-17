@@ -13,7 +13,6 @@ function getUser(){
     .then(function (userlist){
    
 
-        let list = document.getElementById('list1');
 
 
 

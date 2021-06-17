@@ -5,7 +5,6 @@ import { NavLink } from 'react-router-dom';
 const Navigation = (props) => {
   return (
     <header className="row">
-      <h2 className="text-muted">Exercise</h2>
       <nav className="mt-3">
         <ul className="nav nav-pills flex-column flex-sm-row">
                 
