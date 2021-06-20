@@ -1,10 +1,3 @@
-# REACT
-
-> HOMEWORK 4
-
----
-
-Project Link: [click to visit](https://reacthomework4api.netlify.app/)
 
 ## Scripts
 
