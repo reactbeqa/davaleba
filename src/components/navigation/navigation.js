@@ -5,7 +5,11 @@ import { NavLink } from 'react-router-dom';
 const Navigation = (props) => {
   return (
     <header className="row">
+<<<<<<< HEAD
       <nav className="navbar navbar-dark bg-dark">
+=======
+      <nav className="mt-3">
+>>>>>>> 317a362565690b92dfcf8248750589c93c78340d
         <ul className="nav nav-pills flex-column flex-sm-row">
           <li className="nav-item">
             <NavLink to="/auth" className="nav-item nav-link">

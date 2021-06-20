@@ -1,5 +1,4 @@
 import { Route, Switch } from 'react-router';
-import styles from './App.css';
 import Profile from './pages/profile';
 import AuthPage from './pages/auth';
 import Users from './pages/users';
