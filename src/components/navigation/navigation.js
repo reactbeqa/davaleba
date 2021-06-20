@@ -5,17 +5,14 @@ import { NavLink } from 'react-router-dom';
 const Navigation = (props) => {
   return (
     <header className="row">
-      <h2 className="text-muted">Exercise</h2>
-      <nav className="mt-3">
+      <nav className="navbar navbar-dark bg-dark">
         <ul className="nav nav-pills flex-column flex-sm-row">
-                
-
           <li className="nav-item">
-            <NavLink to="/auth" className="nav-link">
+            <NavLink to="/auth" className="nav-item nav-link">
               Auth
             </NavLink>
           </li>
-         
+
           <li className="nav-item">
             <NavLink to="/users" className="nav-link">
               Users
@@ -30,8 +27,7 @@ const Navigation = (props) => {
             <NavLink to="/profile" className="nav-link">
               Profile
             </NavLink>
-          </li> 
-         
+          </li>
         </ul>
       </nav>
     </header>

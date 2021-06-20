@@ -1,8 +1,16 @@
-# Getting Started with Create React App
+# REACT
 
-Hello this is my project [Site Link](https://reactexerecise4th.netlify.app).
+> HOMEWORK 4
 
+---
 
-### `npm start`
+Project Link: [click to visit](https://reacthomework4api.netlify.app/)
 
+## Scripts
 
+| Scripts | Definition          |
+| ------- | ------------------- |
+| start   | react-scripts start |
+| build   | react-scripts build |
+| test    | react-scripts test  |
+| eject   | react-scripts eject |
